@@ -12,7 +12,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="tb_records")
+@Table(name="tb_record")
 public class Record implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
@@ -21,7 +21,7 @@ public class Record implements Serializable{
 	private Long id;
 	private String name;
 	private int age;
-	private Instant moments;
+	private Instant moment;
 	
 	@ManyToOne
 	@JoinColumn(name = "game_id")
@@ -35,7 +35,7 @@ public class Record implements Serializable{
 		this.id = id;
 		this.name = name;
 		this.age = age;
-		this.moments = moments;
+		this.moment = moments;
 	}
 
 	public Long getId() {
@@ -63,11 +63,11 @@ public class Record implements Serializable{
 	}
 
 	public Instant getMoments() {
-		return moments;
+		return moment;
 	}
 
 	public void setMoments(Instant moments) {
-		this.moments = moments;
+		this.moment = moments;
 	}
 
 	public Game getGame() {
@@ -84,7 +84,7 @@ public class Record implements Serializable{
 		int result = 1;
 		result = prime * result + age;
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
-		result = prime * result + ((moments == null) ? 0 : moments.hashCode());
+		result = prime * result + ((moment == null) ? 0 : moment.hashCode());
 		result = prime * result + ((name == null) ? 0 : name.hashCode());
 		return result;
 	}
@@ -105,10 +105,10 @@ public class Record implements Serializable{
 				return false;
 		} else if (!id.equals(other.id))
 			return false;
-		if (moments == null) {
-			if (other.moments != null)
+		if (moment == null) {
+			if (other.moment != null)
 				return false;
-		} else if (!moments.equals(other.moments))
+		} else if (!moment.equals(other.moment))
 			return false;
 		if (name == null) {
 			if (other.name != null)

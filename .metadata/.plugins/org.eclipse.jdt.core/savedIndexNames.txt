@@ -18,7 +18,6 @@ INDEX VERSION 1.131+C:\Users\gefer\Desktop\WS - SDV\SDS1\.metadata\.plugins\org.
 1945232878.index
 4187014521.index
 286460873.index
-1858955259.index
 2777151777.index
 1642768520.index
 2560123305.index
@@ -29,7 +28,6 @@ INDEX VERSION 1.131+C:\Users\gefer\Desktop\WS - SDV\SDS1\.metadata\.plugins\org.
 1493298324.index
 2234384637.index
 3045492049.index
-3013097531.index
 4124490198.index
 1040443929.index
 52716630.index
@@ -48,7 +46,6 @@ INDEX VERSION 1.131+C:\Users\gefer\Desktop\WS - SDV\SDS1\.metadata\.plugins\org.
 895207906.index
 3299496504.index
 4134100806.index
-2339604522.index
 1081128001.index
 1669490436.index
 41365485.index
@@ -71,8 +68,6 @@ INDEX VERSION 1.131+C:\Users\gefer\Desktop\WS - SDV\SDS1\.metadata\.plugins\org.
 2709258609.index
 1178518347.index
 3131191481.index
-2020762591.index
-207406186.index
 4273066171.index
 2702885216.index
 4102214448.index
@@ -81,9 +76,9 @@ INDEX VERSION 1.131+C:\Users\gefer\Desktop\WS - SDV\SDS1\.metadata\.plugins\org.
 1589848112.index
 2830576721.index
 1922053595.index
+3106978061.index
 2418813046.index
 1267722793.index
-3106978061.index
 2690507531.index
 2845888364.index
 283048226.index

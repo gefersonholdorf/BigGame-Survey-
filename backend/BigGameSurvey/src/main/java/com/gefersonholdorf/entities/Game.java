@@ -14,7 +14,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="tb_games")
+@Table(name="tb_game")
 public class Game implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
@@ -25,7 +25,7 @@ public class Game implements Serializable{
 	private String platform;
 	
 	@ManyToOne
-	@JoinColumn(name = "genres_id")
+	@JoinColumn(name = "genre_id")
 	private Genre genre;
 	
 	@OneToMany
